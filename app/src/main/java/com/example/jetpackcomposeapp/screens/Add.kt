@@ -52,7 +52,7 @@ fun AddScreen(navController: NavHostController) {
                 onValueChange = { subtitle = it },
                 label = { Text(text = "Note subtitle ")}
             )
-            Button(modifier = Modifier.padding(top = 16.dp),
+            Button(modifier = Modifier.padding(top = 16.dp), 
                 onClick = {navController.navigate(NavRoute.Main.route) }) {
 Text(text = "Add Note")
             }
